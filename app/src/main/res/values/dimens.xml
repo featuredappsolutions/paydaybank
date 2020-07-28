@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginTopMargin">60dp</dimen>
+    <dimen name="loginWelcomePadding">30dp</dimen>
+
+    <dimen name="loginAppNameSize">40sp</dimen>
+    <dimen name="loginWelcomeSize">30sp</dimen>
+    <dimen name="loginDefaultStartEndPadding">40dp</dimen>
+    <dimen name="loginDefaultPadding">10dp</dimen>
+
+    <dimen name="editTextDefaultSize">18sp</dimen>
+
+    <dimen name="mainDefaultPadding">10dp</dimen>
+    <dimen name="mainDefaultPaddingTwice">20dp</dimen>
+
+    <dimen name="customerNameSize">30sp</dimen>
+    <dimen name="mainHeaderTitleSize">22sp</dimen>
+    <dimen name="mainSubHeaderTitleSize">18sp</dimen>
+</resources>

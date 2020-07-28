@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginTop="@dimen/loginTopMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/loginAppNameSize"
+        android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome"
+        android:paddingTop="@dimen/loginWelcomePadding"
+        android:textAllCaps="true"
+        android:textSize="@dimen/loginWelcomeSize"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/loginDefaultStartEndPadding"
+        android:paddingEnd="@dimen/loginDefaultStartEndPadding"
+        android:paddingTop="@dimen/loginDefaultStartEndPadding">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterEmailAddress"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textDirection="locale"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/loginDefaultStartEndPadding"
+        android:paddingEnd="@dimen/loginDefaultStartEndPadding"
+        android:paddingTop="@dimen/loginDefaultPadding">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterYourPassword"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            android:textDirection="locale"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/loginDefaultPadding"
+        android:layout_marginRight="@dimen/loginDefaultStartEndPadding"
+        android:layout_marginLeft="@dimen/loginDefaultStartEndPadding"
+        android:id="@+id/btnLogin"
+        style="@style/ButtonBorderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/buttonTextColors"/>
+
+    <Button
+        android:layout_marginTop="@dimen/loginDefaultPadding"
+        android:layout_marginRight="@dimen/loginDefaultStartEndPadding"
+        android:layout_marginLeft="@dimen/loginDefaultStartEndPadding"
+        android:id="@+id/btnSignup"
+        style="@style/ButtonBorderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dontHaveAccountSignup"
+        android:textColor="@color/buttonTextColors"
+        android:textStyle="italic"/>
+
+</LinearLayout>

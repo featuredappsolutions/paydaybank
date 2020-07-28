@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PayDay Bank</string>
+    <string name="welcome">welcome</string>
+    <string name="enterEmailAddress">Enter your email address</string>
+    <string name="enterYourPassword">Enter your password</string>
+    <string name="login">login</string>
+    <string name="dontHaveAccountSignup">If you do not have an account, touch here to create a new one.</string>
+    <string name="passwordMinLength">Password must have at least %1$d length</string>
+    <string name="enterYourInformationToCreateAccount">Fill the following fields to create a new account</string>
+    <string name="enterYourFirstname">Enter your first name</string>
+    <string name="enterYourLastname">Enter your last name</string>
+    <string name="gender">Select Your Gender</string>
+    <string name="selectBirthDate">Select Date of Birth</string>
+    <string name="signUp">Sign Up</string>
+    <string name="enterYourPhoneNumber">Enter your phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="youMustEnterYourFirstName">You must enter your first name</string>
+    <string name="youMustEnterYourLastName">You must enter your last name</string>
+    <string name="youMustEnterYourPhoneNumber">You must enter your phone number</string>
+    <string name="youMustEnterValidEmailAddress">You must enter valid email address</string>
+    <string name="youMustSelectBirthDate">You must select your birth date</string>
+    <string name="invalidEmailOrPassword">Invalid email address or password.</string>
+    <string name="errorOccurredOnAccountCreate">Error occurred while creating account</string>
+    <string name="monthlyDashboard">Monthly Dashboard</string>
+    <string name="totalEarned">Total Earned</string>
+    <string name="totalSpent">Total Spent</string>
+    <string name="latestTransactions">Latest Transactions</string>
+    <string name="errorOccurredOnGettingTransactions">Error occurred while retrieving transactions</string>
+    <string name="thisMonth">This Month</string>
+    <string name="previousMonth">Previous Month</string>
+    <string name="monthsAgo">%1$d Months Ago</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+</resources>

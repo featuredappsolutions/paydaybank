@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4b9aff</color>
+    <color name="colorPrimaryDark">#45bafe</color>
+    <color name="colorAccent">#75bafe</color>
+
+    <color name="buttonTextColors">#45bafe</color>
+
+    <color name="transactionsRowSeperator">#CCCCCC</color>
+
+
+</resources>
